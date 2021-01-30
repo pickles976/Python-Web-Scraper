@@ -11,3 +11,5 @@ To install Beautiful Soup 4:
 This program reads in XML from EDGAR database from U.S. Security and Exchange Commision
 Program scans the lastest filings for Insider Trading Information (form 4)
 Program then accesses another URL given by the XML and retrieve the XML of the actual form filed to retrieve all relevent information
+
+CIK is used to find Ticker and added to a dictionary displaying tickers with in/outflow in dollars for the time period queried.
