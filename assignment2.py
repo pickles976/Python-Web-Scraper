@@ -15,6 +15,7 @@ Dependencies:
 import re
 import xml.etree.ElementTree as ET
 import urllib
+import urllib.request
 #import time
 
 #t0 = time.time()
@@ -147,7 +148,7 @@ table.append(heading)
 
 
 #Pages to run (100 entries per page)
-pageToRun = 10;
+pageToRun = 1
 
 
 
